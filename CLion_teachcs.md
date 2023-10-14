@@ -1,6 +1,15 @@
 # How to use CLion and teach.cs
 
-If you're using Mac OS or WSL (hopefully), you'll notice that CLion gives you a lot of power when it comes to code checking. You can't get that when using VSCode. When you SSH using VSCode, you can't even get proper error checking, and setting that up is too much of a pain.
+> [!Warning]
+> 
+> This document is outdated! Please view [Using CLion with WSL](/CLion_WSL.md); the results you would get by doing that is way better than by using this document.
+
+> [!NOTE]
+> 
+> This document tells you how to automatically sync files between your computer and that of a(n) SSH server *quickly*.
+
+
+If you're using MacOS or WSL (hopefully), you'll notice that CLion gives you a lot of power when it comes to code checking. You can't get that when using VSCode. When you SSH using VSCode, you can't even get proper error checking, and setting that up is too much of a pain.
 
 Windows will still give you reasonable power with this, but beware that the C you have with Windows may not be full-featured in comparison to teach.cs' Linux.
 
