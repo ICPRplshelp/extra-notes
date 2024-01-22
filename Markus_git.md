@@ -20,3 +20,14 @@ ssh://drprj@markus.teach.cs.toronto.edu/20XX-0X/....git
 ```
 
 Once you've done that, running `git pull` and `git push` for that repository alone will not require you to authenticate.
+
+## Error messages?
+
+Getting this?
+
+```
+fatal: not a git repository (or any parent up to mount point /gpfs)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+```
+
+You're probably in the wrong folder.
