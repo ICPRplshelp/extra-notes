@@ -1,5 +1,7 @@
 # Using CLion with WSL
 
+Thanks to ucicuyh for providing steps that I couldn't get myself on the first try!
+
 Here's the guide on how to use CLion with WSL. This allows CLion to be fully integrated with a Linux environment, which allows you to have full IDE features with Linux libraries. If you used to SSH into Linux servers all the time and had to edit `.c` files on a text editor, this should fix everything.
 
 Keep this in mind: You will be editing your files on Windows, so none of your code will be stored on the Linux subsystem. However, the code will be *run* on the Linux subsystem, and the compiler is on the Linux subsystem.
